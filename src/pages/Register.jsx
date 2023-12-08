@@ -9,11 +9,10 @@ const Register = () => {
         <Logo />
         <h4>Register</h4>
         <FormRow type="text" name="name" defaultValue={'john'} />
-        <FormRow type="text" name="name" defaultValue={'john'} />
-        <FormRow type="text" name="name" defaultValue={'john'} />
-        <FormRow type="text" name="name" defaultValue={'john'} />
-        <FormRow type="text" name="name" defaultValue={'john'} />
-        <FormRow type="text" name="name" defaultValue={'john'} />
+        <FormRow type="text" name="lastName" defaultValue='smith' />
+        <FormRow type="text" name="location" defaultValue={'earth'} />
+        <FormRow type="email" name="email" defaultValue={'email'} />
+        <FormRow type="password" name="password" defaultValue={'secret123'} />
         <button type="submit" className="btn btn-block">
           submit
         </button>
